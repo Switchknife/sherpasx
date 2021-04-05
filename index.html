@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="page">
+<head>
+	<!---
+	1. Replace the *Page Title* on lines 23, 31 & 296
+	2. Set the *Page Description* on lines 26, 32 & 298
+	3. Set an optional *Logo* on lines 294 using the src attribute.
+	4. Set your *Facebook Profile* URL on line 312 using the href attribute.
+	5. Set your *Twitter Profile* URL on line 313 using the href attribute.
+	6. Set your *Email* on line 314 using the href attribute.
+	7. Set your background image on line 63, see file README.mb for additional background images.
+	8. Set your MailChimp email post URL on line 300 See video: https://youtu.be/YUdP1qfMot8
+	9. FTP to your Website. 
+	-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>SherpasX</title>
+
+	<meta name="generator" content="sherpasx.com 0.0.1-dev" />
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="https://static.comingsoonpage.com/page-assets/1.0.0/favicon.ico">
+	<meta property="og:url" content="" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="SherpasX" />
+	<meta property="og:description" content="" />
+	
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!-- Bootstrap and default Style -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+			
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+	
+	<!-- Calculated Styles -->
+	<style type="text/css">
+	
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
+
+	body {
+		height:100%;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	
+	html{
+		height:100%;
+		background: #ffffff url(assets/images/background.jpg); no-repeat center bottom fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	#page-page{
+		background-color: rgba(0,0,0,0);
+	}
+    #page-description{
+        font-family: 'Roboto', sans-serif;
+        padding-top: 20px;
+    }
+	
+	.flexbox #page-page{
+		align-items: center;
+		justify-content: center;
+	}
+
+	.page body{
+		background: transparent;
+	}
+
+	.page body, .page body p{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+        font-size: 20px;
+        line-height: 1.50em;
+        color:#ffffff;
+    }
+
+	::-webkit-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+
+	::-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	} 
+
+	:-ms-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	} 
+
+	:-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+
+    .page h1, .page h2, .page h3, .page h4, .page h5, .page h6{
+        font-family: 'Pacifico';
+        color:#ffffff;
+    }
+
+	#page-headline{
+		font-family: 'Pacifico';
+		font-weight: 400;
+		font-style: ;
+		font-size: 48px;
+		color:#ffffff;
+		line-height: 1.00em;
+	}
+
+	.page button{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+    }
+	
+    .page a, .page a:visited, .page a:hover, .page a:active{
+		color: #ffffff;
+	}
+
+	#page-socialprofiles a {
+	  color: #ffffff;
+	}
+	.page .btn-primary,
+	.page .btn-primary:focus,
+	.gform_button,
+	#mc-embedded-subscribe, .submit-button {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		background-color: #ffffff;
+		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
+		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: linear-gradient(top,#ffffff,#d9d9d9);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
+		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		*background-color: #d9d9d9;
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	}
+
+	.page .btn-primary:hover,
+	.page .btn-primary:active,
+	.page .btn-primary.active,
+	.page .btn-primary.disabled,
+	.page .btn-primary[disabled],
+	.page .btn-primary:focus:hover,
+	.page .btn-primary:focus:active,
+	.page .btn-primary:focus.active,
+	.page .btn-primary:focus.disabled,
+	.page .btn-primary:focus[disabled],
+	#mc-embedded-subscribe:hover,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active,
+	#mc-embedded-subscribe.disabled,
+	#mc-embedded-subscribe[disabled] {
+		background-color: #d9d9d9;
+		*background-color: #cccccc;
+	}
+
+	.page .btn-primary:active,
+	.page .btn-primary.active,
+	.page .btn-primary:focus:active,
+	.page .btn-primary:focus.active,
+	.gform_button:active,
+	.gform_button.active,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active {
+		background-color: #bfbfbf;
+	}
+
+	.form-control,
+	.progress {
+		background-color: rgba(255, 255, 255, 0.85);
+	}
+
+	#page-progressbar span,
+	.countdown_section {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+	}
+
+	.page .btn-primary:hover,
+	.page .btn-primary:active {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		border-color: #e6e6e6;
+	}
+
+	.page input[type='text']:focus {
+		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+	}
+    
+    #page-content {
+		display: none;
+		max-width: 600px;
+		background-color: #000000;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		background-color:transparent;
+	}
+    
+	.page .progress-bar,
+	.countdown_section,
+	.page .btn-primary,
+	.page .btn-primary:focus,
+	.gform_button {
+		background-image: none;
+		text-shadow: none;
+	}
+
+	.page input,
+	.page input:focus {
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+							
+	#page-page{
+	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	}
+
+	.page body{
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%); 
+		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
+		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 ); 
+	}
+
+	#page-subscribe-btn{
+	    background:transparent;
+	    border: 1px solid #fff !important;
+	    color: #fff;
+	}
+
+	#page-subscribe-btn:hover{
+	    background: rgba(255,255,255,0.2);
+	    color: #fff;
+	}
+
+	#page-credit img{
+		margin-left:auto;
+		margin-right:auto;
+		width:125px;
+		    margin-top: -4px;
+	}
+
+	#page-credit {
+		font-size:11px;
+	}
+
+	</style>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Modernizr -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	
+	<!-- Google Analytics Code Goes Here-->
+</head>
+<body>
+	<div id="page-page">
+		<div id="page-content">
+			
+			<img id="page-logo" src="assets/images/logo.png">
+			    				
+			<h1 id="page-headline">SherpasX</h1>			    				
+			
+			<div id="page-description">Get ready! Something really cool is coming!</div>			    				
+			
+			<form id="page-form" action="https://sherpasx.us1.list-manage.com/subscribe/post?u=080d38a96788598bed4049cec&amp;id=69de60ee03" method="post">
+				<div id="page-field-wrapper">
+					<div class="row">
+						<div class="col-md-12 seperate"><div class="input-group"><input id="page-email" name="EMAIL" class="form-control input-lg form-el" type="email" placeholder="Email" required/>
+					<span class="input-group-btn"><button id="page-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow">Notify Me</button></span></div></div>
+					</div>
+				</div>
+			</form>
+			
+			<span id="page-privacy-policy-txt">We promise to never spam you.</span>
+			    						    			    								    			    			    				
+			<div id="page-socialprofiles">
+				<a href="https://www.facebook.com/abhishek.sherpa.39"><i class="fa fa-facebook-official fa-2x"></i></a>			
+				<a href="" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>			
+				<a href="mailto:" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>			
+			</div>
+									    									    			    			    							    			     			    		
+		</div><!-- end of #page-content -->
+	</div>
+
+
+	<script>
+		// Animate Delay
+		setTimeout(function(){ jQuery("#page-content").show().addClass('animated fadeIn'); }, 250);
+
+		// Reseize	
+		function resize(){
+				$('head').append("<style id='form-style' type='text/css'></style>");
+				$('#form-style').html('.page .input-group-btn, .page .input-group{display:block;width:100%;}.page #page-subscribe-btn{margin-left:0;width:100%;display:block;}.page .input-group .form-control:first-child, .page .input-group-addon:first-child, .page .input-group-btn:first-child>.btn, .page .input-group-btn:first-child>.dropdown-toggle, .page .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.page .input-group .form-control:last-child, .page .input-group-addon:last-child, .page .input-group-btn:last-child>.btn, .page .input-group-btn:last-child>.dropdown-toggle, .page .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
+		}
+		
+		$('#page-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+			function(){
+				var width = $('#page-field-wrapper').width();
+				if(width < 480 && width != 0){
+					resize();
+				}
+			}
+		);
+	</script>
+
+	</body>
+</html>
+
+<!-- This page was generated by ComingSoonPage.com | Learn more: http://www.comingsoonpage.com -->
